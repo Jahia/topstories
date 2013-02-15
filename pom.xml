@@ -51,6 +51,11 @@
     <name>Jahia Topstories</name>
     <packaging>bundle</packaging>
     <description>These are the custom module (Jahia Topstories) for running on a Jahia server.</description>
+    <scm>
+        <connection>scm:git:git@github.com:Jahia/topstories.git</connection>
+        <url>scm:git:git@github.com:Jahia/topstories.git</url>
+        <developerConnection>scm:git:git@github.com:Jahia/topstories.git</developerConnection>
+    </scm>
     <repositories>
         <repository>
             <id>jahia-public</id>
