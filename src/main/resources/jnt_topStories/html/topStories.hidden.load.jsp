@@ -12,7 +12,8 @@
 <c:if test="${currentNode.properties['j:limit'].long gt 0}">
     <query:definition var="listQuery"
                       statement="select * from [jmix:topStory] as story where isdescendantnode(story, ['${renderContext.site.path}'])
-         and story.[j:level]='${currentNode.properties['j:level'].string}' order by story.[jcr:lastModified] desc"/>
+         and story.[j:level]='${currentNode.properties['j:level'].string}' order by story.[jcr:lastModified] desc"
+         limit="${currentNode.properties['j:limit'].long}"/> 
 
     <c:set target="${moduleMap}" property="editable" value="false" />
     <c:set target="${moduleMap}" property="listQuery" value="${listQuery}" />
