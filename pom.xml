@@ -7,7 +7,7 @@
  
     For more information, please visit http://www.jahia.com.
  
-    Copyright (C) 2002-2012 Jahia Solutions Group SA. All rights reserved.
+    Copyright (C) 2002-2013 Jahia Solutions Group SA. All rights reserved.
  
     This program is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License
@@ -42,15 +42,35 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>jahia-default-modules</artifactId>
+        <artifactId>jahia-modules</artifactId>
         <groupId>org.jahia.modules</groupId>
-        <version>1.2</version>
+        <version>6.6.1.0</version>
     </parent>
     <groupId>org.jahia.modules</groupId>
     <artifactId>topstories</artifactId>
+	<version>1.3-SNAPSHOT</version>
     <name>Jahia Topstories</name>
     <packaging>war</packaging>
     <description>These are the custom module (jahiaTopstories) for running on a Jahia server.</description>
+    <scm>
+        <connection>scm:git:git@github.com:Jahia/topstories.git</connection>
+        <url>scm:git:git@github.com:Jahia/topstories.git</url>
+        <developerConnection>scm:git:git@github.com:Jahia/topstories.git</developerConnection>
+    </scm>	
+	<repositories>
+        <repository>
+            <id>jahia-public</id>
+            <name>Jahia Public Repository</name>
+            <url>https://devtools.jahia.com/nexus/content/groups/public</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>	
     <build>
         <plugins>
             <plugin>
