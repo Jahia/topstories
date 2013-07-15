@@ -48,7 +48,7 @@
     </parent>
     <groupId>org.jahia.modules</groupId>
     <artifactId>topstories</artifactId>
-	<version>1.3-SNAPSHOT</version>
+	<version>1.3</version>
     <name>Jahia Topstories</name>
     <packaging>war</packaging>
     <description>These are the custom module (jahiaTopstories) for running on a Jahia server.</description>
