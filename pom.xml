@@ -56,6 +56,14 @@
         <url>scm:git:git@github.com:Jahia/topstories.git</url>
         <developerConnection>scm:git:git@github.com:Jahia/topstories.git</developerConnection>
     </scm>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.jackrabbit</groupId>
+            <artifactId>jackrabbit-jcr-commons</artifactId>
+            <version>${jackrabbit.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
     <repositories>
         <repository>
             <id>jahia-public</id>
