@@ -52,7 +52,7 @@
     <version>8.0.0.0</version>
   </parent>
   <artifactId>topstories</artifactId>
-  <version>3.0.0</version>
+  <version>3.1.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Jahia Topstories</name>
   <description>These are the custom module (Jahia Topstories) for running on a Jahia server.</description>
@@ -60,7 +60,7 @@
     <connection>scm:git:git@github.com:Jahia/topstories.git</connection>
     <developerConnection>scm:git:git@github.com:Jahia/topstories.git</developerConnection>
     <url>scm:git:git@github.com:Jahia/topstories.git</url>
-    <tag>3_0_0</tag>
+    <tag>HEAD</tag>
   </scm>
   <properties>
     <jahia-module-signature>MCwCFGnNC8CpKFd6xXsfmwzd7C6lFIIkAhQmMctseA8eVHghX6XwU8xJWQXXbw==</jahia-module-signature>
